@@ -1,0 +1,23 @@
+<story path="stories\dbehave.storyConverted" title="Funcionalidade: Acesso ao site Uni7">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">informa&#231;&#245;es sobre as faltas do semestre</inOrderTo>
+  <asA keyword="As a">Aluno</asA>
+  <iWantTo keyword="I want to">saber quantas faltas tenho no semestre</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Acessando Notas no Aluno Online">
+<step outcome="successful">Dado que vou para a tela &quot;Uni7&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;ACESSO R&#193;PIDO&quot;</step>
+<step outcome="successful">Quando movo o mouse sobre &quot;ACESSO R&#193;PIDO&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Acad&#234;mico Online&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Consultando notas Acad&#234;mico Online">
+<step outcome="successful">Dado que vou para a tela &quot;Acad&#234;mico Online&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Fa&#231;a o login&quot;</step>
+<step outcome="successful">Quando informo &quot;1311647&quot; no campo &quot;Usu&#225;rio ou Email&quot;</step>
+<step outcome="successful">Quando informo &quot;florida.&quot; no campo &quot;Senha&quot;</step>
+<step outcome="successful">Quando clico em &quot;Acessar&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Notas/faltas etapas&quot;</step>
+<step outcome="successful">Quando clico em &quot;Notas/faltas etapas&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;C&#243;d.Disc.&quot;</step>
+</scenario>
+</story>

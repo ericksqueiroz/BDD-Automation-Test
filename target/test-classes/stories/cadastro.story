@@ -1,0 +1,26 @@
+Funcionalidade: cadastro de usuário
+
+Narrativa:
+Para logar meu usuário com sucesso
+Como um visitante
+Desejo efetuar o cadastro de usuário no site Mercado Livre
+
+Cenário: Efetuando cadastro de novo usuário
+
+Dado que vou para a tela "Mercado Livre"
+Então será exibido "Cadastre-se"
+Quando clico em "Cadastre-se"
+Então será exibido "Cadastre-se"
+Quando informo "João" no campo "Nome"
+Quando informo "das Neves" no campo "Sobrenome"
+Quando informo "85997158391" no campo "Telefone (fixo ou celular)"
+Quando informo "testqa@outlook.com.br" no campo "E-mail"
+Quando informo "senha123" no campo "Criar senha"
+Então será exibido "Pronto, a sua senha está completa."
+Quando clico em "Cadastrar-me"
+Então será exibido "Pronto, João. Você se cadastrou!"
+
+
+
+
+
