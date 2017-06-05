@@ -7,12 +7,10 @@ import br.gov.frameworkdemoiselle.behave.runner.ui.Button;
 import br.gov.frameworkdemoiselle.behave.runner.ui.Link;
 import br.gov.frameworkdemoiselle.behave.runner.ui.TextField;
 
-public class MyPages {
+public class Cadastro {
 	
 	@ScreenMap(name = "Mercado Livre", location = "www.mercadolivre.com.br")
 	public class Main {
-		
-		/*Cadastro*/
 		
 		@ElementMap(name = "Cadastre-se", locatorType = ElementLocatorType.XPath, locator = "/html/body/header/div/div/nav/a[1]")
 		private Link linkIssue;
@@ -36,11 +34,12 @@ public class MyPages {
 		private Button cadastro;
 
 	}
+}
 		
-	@ScreenMap(name = "Logar", location = "https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEA0WOwQrDIBBE_2XPxdw99kfCRlcr0SrrplJC_r1rofQ4j5nhnZBrTM9V3o3AgqeARxa4QcsooXJZk1desqKehH5xmxVkLCTEHewJsWrvIdLssowxTCF26GtOLybjajEbLzpiiqnrhuat8EHzeE9tDdhFGN3-56oWyd9JPabct31dH7L3MK6zAAAA/user")
+	/*@ScreenMap(name = "Logar", location = "https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEA0WOwQrDIBBE_2XPxdw99kfCRlcr0SrrplJC_r1rofQ4j5nhnZBrTM9V3o3AgqeARxa4QcsooXJZk1desqKehH5xmxVkLCTEHewJsWrvIdLssowxTCF26GtOLybjajEbLzpiiqnrhuat8EHzeE9tDdhFGN3-56oWyd9JPabct31dH7L3MK6zAAAA/user")
 	public class Logar {
 		
-		/*Login*/
+		Login
 
 		@ElementMap(name = "E-mail ou usuário", locatorType = ElementLocatorType.XPath, locator = ".//*[@id='user_id']")
 		private TextField emailuser;
@@ -56,13 +55,13 @@ public class MyPages {
 		
 		
 		
-	}	
+	}	*/
 	
 	
-	@ScreenMap(name = "Minha conta", location = "https://myaccount.mercadolivre.com.br/summary")
+	/*@ScreenMap(name = "Minha conta", location = "https://myaccount.mercadolivre.com.br/summary")
 	public class Modifica {
 		
-		/*Modifica*/
+		Modifica
 	
 		@ElementMap(name = "JOÃO DASNEVES", locatorType = ElementLocatorType.XPath, locator = "/html/body/header/div/div/nav/div/label/i")
 		private Link user;
@@ -85,8 +84,8 @@ public class MyPages {
 		@ElementMap(name = "Modificar", locatorType = ElementLocatorType.XPath, locator = ".//*[@id='btn_submmit']")
 		private Button modificar;
 	
-	}
-}
+	}*/
+
 	
 	/*@ScreenMap(name = "Uni7", location = "www.uni7setembro.edu.br")
 	public class Main {

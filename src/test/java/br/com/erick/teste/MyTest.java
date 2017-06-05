@@ -16,7 +16,7 @@ public class MyTest {
 
 	@Test
 	public void testAllStories() throws Throwable {
-		eng.run("/stories/modifica.story");
+		eng.run("/stories/logar.story");
 	}
 
 }
